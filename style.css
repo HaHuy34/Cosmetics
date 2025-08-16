@@ -123,9 +123,18 @@ ul li {
 .section-title {
   font-style: italic;
   color: #2e3a9f;
-  margin: 0px 0 39px 0;
   font-size: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.obagi-h4 {
+  margin: 10px 0 39px 0;
   text-align: center;
+  font-size: 22px;
+font-weight: 500;
 }
 
 .product-grid {
